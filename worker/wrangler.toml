@@ -1,0 +1,11 @@
+name = "idf-team-gateway"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+[vars]
+# 팀 Firebase 프로젝트 ID 입력
+FIREBASE_PROJECT_ID = ""
+# 기본값은 deny-by-default. 정책 선택: allowlist / domain
+ACCESS_MODE = "allowlist"
+ALLOWED_DOMAIN = ""
+# allowlist일 때 Cloudflare 대시보드의 환경 변수 ALLOWED_EMAILS에 이메일 입력
